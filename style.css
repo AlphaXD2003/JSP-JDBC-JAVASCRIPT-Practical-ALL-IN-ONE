@@ -1,0 +1,186 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 180px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    border: 4px solid #ffffff;
+
+}
+.con_img img{
+   max-width: 300px;
+   margin: 20px;
+   border-radius: 15px;
+   border: 2px solid red;
+}
+
+.login_btn{
+    width: 230px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #000000;
+}
+
+.reg_btn{
+    width: 230px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #000000;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px; */
+    /* margin: 15px; */
+
+}
+.info input[name="username"]{
+    margin: 5px;
+    width: 290px;
+    height: 25px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.info input[name="email"]{
+    margin: 5px;
+    width: 290px;
+    height: 25px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.info input[name="password"]{
+    margin: 5px;
+    width: 290px;
+    height: 25px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+#view{
+    width: 230px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #000000;
+}
+
+#delete{
+    width: 230px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #000000;
+}
+
+.viewusername{
+    display: flex ;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.viewusername p{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    background-color: #4CAF50;
+}
+.viewmail{
+    display: flex ;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.viewmail p{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    background-color: #4CAF50;
+}
+
+.viewpassword{
+    display: flex ;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.viewpassword p{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    background-color: #4CAF50;
+}
+
+
+#updatepagebtn{
+    width: 230px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #000000;
+}
+
+#updateprev{
+    width: 230px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #000000;
+}
+
+.toggle-password {
+    cursor: pointer;
+    margin-left: 5px;
+}
