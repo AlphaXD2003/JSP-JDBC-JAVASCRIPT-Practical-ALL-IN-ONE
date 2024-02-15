@@ -8,8 +8,8 @@
 6. Toogle Visibility of Password. (Using Javascript)
 7. Routes handling.
 8. Error handling in JSP.
-9. Password Verification (Using Regex)
-    Password will be atleast of 8 characters including atleast one special character , one digit , one uppercase and one lowercase alphabate.
+9. Password Verification (Using Regex).
+    <br> Password will be atleast of 8 characters including atleast one special character , one digit , one uppercase and one lowercase alphabate.
 
 # Pre-requisites
 1. JDBC Configuration in my PC. (I used MySQL Connection Version 8.3).
